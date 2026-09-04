@@ -18,8 +18,8 @@ const SERVICES = [
   },
   {
     icon: Layers,
-    title: 'Motion Design',
-    description: 'Adding life to interfaces with thoughtful micro-interactions and transitions.',
+    title: 'Backend Development',
+    description: 'Powering applications with secure APIs, clean code, and database architecture.',
   },
   {
     icon: Zap,
@@ -28,7 +28,7 @@ const SERVICES = [
   },
   {
     icon: Sparkles,
-    title: 'Brand Strategy',
+    title: 'Motion Design',
     description: 'Crafting cohesive brand systems that scale from landing pages to full products.',
   },
 ];
@@ -47,7 +47,7 @@ export default function About() {
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-secondary">
             I'm a multidisciplinary creative who lives at the intersection of design and
-            technology. For over eight years I've helped startups and established brands
+            technology. For over five years I've helped startups and established brands
             ship products that feel as good as they look — from first wireframe to final
             production deploy.
           </p>

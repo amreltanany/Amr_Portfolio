@@ -2,32 +2,36 @@ import { ArrowUpRight } from 'lucide-react';
 
 const PROJECTS = [
   {
-    title: 'Nebula Analytics',
-    category: 'Web App · UI/UX',
-    description: 'A real-time data visualization platform for enterprise teams, featuring live dashboards and custom chart components.',
-    image: 'https://images.pexels.com/photos/27141316/pexels-photo-27141316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    tags: ['React', 'D3.js', 'TypeScript'],
+    title: 'Display Egypt',
+    category: 'Marketing Agency · Portfolio',
+    description: 'Engineered DisplayEgypt—a dynamic WordPress platform built for an outdoor advertising leader, highlighting street-level campaigns, digital billboards, and high-impact urban displays.',
+    image: 'src/Images/hero (2).png',
+    tags: ['WordPress', 'PHP', 'SEO & Speed Optimization', 'Responsive Design'],
+    link: 'https://displayegypt.com/',
   },
   {
-    title: 'Waveform Studio',
-    category: 'Creative · Motion',
-    description: 'An interactive audio studio interface with waveform synthesis and real-time visual feedback for music producers.',
-    image: 'https://images.pexels.com/photos/27141312/pexels-photo-27141312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    tags: ['WebGL', 'Web Audio', 'Motion'],
+    title: 'Web Desgin',
+    category: 'Desgin · UI/UX',
+    description: 'Dynamic radial-gradient mask that moves with mouse/touch events to reveal an alternate image layer underneath.',
+    image: 'src/Images/ronin.jpg',
+    tags: ['UI/UX', 'Motion'],
+    link: 'https://amreltanany.github.io/ronin/',
   },
   {
-    title: 'CodeCanvas',
-    category: 'Product · Frontend',
-    description: 'A collaborative code editor with syntax highlighting, live preview, and a focus on developer ergonomics.',
-    image: 'https://images.pexels.com/photos/9858906/pexels-photo-9858906.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    tags: ['React', 'Monaco', 'WebSocket'],
+    title: 'Qaro2a',
+    category: 'E-Commerce · Portfolio . Podcast',
+    description: 'Architecting complex digital ecosystems like Qaro2a, designed for author publishing, e-commerce, and proadcasting. I combine top-tier engineering with sleek UI design to deliver fast, conversion-driven platforms that leave an impact..',
+    image: 'src/Images/hero.png',
+    tags: ['ASP.NET Core', 'SQL Server', 'Onion Architecture', 'JWT Auth'],
+    link: 'http://qaro2a.com/',
   },
   {
-    title: 'Pulse Dashboard',
-    category: 'Dashboard · Design System',
-    description: 'A comprehensive control panel with modular widgets, dark/light themes, and a fully documented component library.',
-    image: 'https://images.pexels.com/photos/27141313/pexels-photo-27141313.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    tags: ['Design System', 'Tailwind', 'Storybook'],
+    title: 'PERSONAL PORTFOLIO',
+    category: 'Portfolio',
+    description: 'Architected a Portfolio to serve as a high-speed central hub for cutting-edge web projects, combining slick motion design, interactive features, and bulletproof code execution.',
+    image: 'src/Images/hero (1).png',
+    tags: ['TypeScript', 'Tailwind', 'React + Vite'],
+    link: 'https://amreltanany.github.io/ElTanany/',
   },
 ];
 
@@ -65,8 +69,11 @@ export default function Work() {
         {/* Projects grid */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {PROJECTS.map((project) => (
-            <article
+            <a
               key={project.title}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative overflow-hidden rounded-2xl glass-card transition-all duration-300 hover:-translate-y-1 hover:border-white/20"
             >
               {/* Image */}
@@ -101,7 +108,7 @@ export default function Work() {
                   ))}
                 </div>
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </div>

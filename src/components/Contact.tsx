@@ -44,7 +44,7 @@ export default function Contact() {
         </div>
 
         <div className="mt-14 grid grid-cols-1 gap-8 lg:grid-cols-5">
-          {/* Contact info */}
+         
           <div className="flex flex-col gap-5 lg:col-span-2">
             <a
               href="mailto:hello@example.com"
@@ -55,8 +55,8 @@ export default function Contact() {
               </div>
               <div>
                 <p className="font-inter text-xs uppercase tracking-wider text-secondary">Email</p>
-                <p className="text-white transition-colors group-hover:text-accent">hello@example.com</p>
-              </div>
+                <p className="text-white transition-colors group-hover:text-accent">amr_eltanany@outlook.com</p>
+              </div>  
             </a>
 
             <div className="flex items-center gap-4 rounded-2xl glass-card p-5">
@@ -69,6 +69,33 @@ export default function Contact() {
               </div>
             </div>
 
+            <a
+              href="https://wa.me/201119708154"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-4 rounded-2xl glass-card p-5 transition-all hover:border-white/20"
+            >
+              <div className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl glass glass-border text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-inter text-xs uppercase tracking-wider text-secondary">WhatsApp</p>
+                <p className="text-white transition-colors group-hover:text-accent">01119708154</p>
+              </div>
+            </a>
+
             <div className="rounded-2xl glass-card p-5">
               <div className="mb-3 flex items-center gap-3">
                 <span className="relative block h-2.5 w-2.5 rounded-full bg-success shadow-[0_0_12px_rgba(0,255,136,0.8)]">
@@ -79,71 +106,13 @@ export default function Contact() {
                 </p>
               </div>
               <p className="text-secondary text-sm leading-relaxed">
-                Accepting new freelance projects and full-time opportunities for Q4 2026.
+                Accepting new freelance projects full-time projects management.
               </p>
             </div>
           </div>
 
           {/* Contact form */}
-          <form
-            onSubmit={handleSubmit}
-            className="flex flex-col gap-5 rounded-2xl glass-card p-7 lg:col-span-3"
-          >
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-              <div>
-                <label htmlFor="name" className="mb-2 block font-inter text-sm font-medium text-secondary">
-                  Name
-                </label>
-                <input
-                  id="name"
-                  type="text"
-                  required
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  placeholder="Your name"
-                  className="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-white placeholder:text-secondary/50 outline-none transition-all focus:border-accent focus:ring-1 focus:ring-accent"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="mb-2 block font-inter text-sm font-medium text-secondary">
-                  Email
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  required
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  placeholder="you@example.com"
-                  className="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-white placeholder:text-secondary/50 outline-none transition-all focus:border-accent focus:ring-1 focus:ring-accent"
-                />
-              </div>
-            </div>
-
-            <div>
-              <label htmlFor="message" className="mb-2 block font-inter text-sm font-medium text-secondary">
-                Message
-              </label>
-              <textarea
-                id="message"
-                required
-                rows={5}
-                value={formData.message}
-                onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                placeholder="Tell me about your project..."
-                className="w-full resize-none rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-white placeholder:text-secondary/50 outline-none transition-all focus:border-accent focus:ring-1 focus:ring-accent"
-              />
-            </div>
-
-            <button
-              type="submit"
-              disabled={sent}
-              className="inline-flex items-center justify-center gap-2 rounded-lg accent-gradient px-8 py-4 font-inter text-sm font-semibold uppercase tracking-wide text-white shadow-lg shadow-accent/25 transition-all hover:-translate-y-0.5 hover:accent-gradient-hover hover:shadow-xl hover:shadow-accent/40 disabled:opacity-70"
-            >
-              {sent ? 'Message Sent!' : 'Send Message'}
-              <Send size={18} />
-            </button>
-          </form>
+        
         </div>
       </div>
     </section>

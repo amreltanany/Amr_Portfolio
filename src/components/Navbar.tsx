@@ -3,9 +3,8 @@ import { Menu, X } from 'lucide-react';
 
 const NAV_ITEMS = [
   { label: 'Home', href: '#top' },
-  { label: 'Work', href: '#work' },
   { label: 'About', href: '#about' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Work', href: '#work' },
 ];
 
 export default function Navbar() {
@@ -27,7 +26,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-10">
         <a href="#top" className="flex items-center gap-2 text-white" aria-label="Portfolio home">
           <span className="text-2xl text-accent">◆</span>
-          <span className="font-inter text-lg font-bold tracking-wider">STUDIO</span>
+          <span className="font-inter text-lg font-bold tracking-wider">Amr</span>
         </a>
 
         <div className="hidden items-center gap-10 lg:flex">

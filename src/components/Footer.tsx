@@ -1,9 +1,10 @@
 import { ArrowUp } from 'lucide-react';
 
 const SOCIAL_LINKS = [
-  { label: 'LinkedIn', href: 'https://www.linkedin.com' },
-  { label: 'GitHub', href: 'https://github.com' },
-  { label: 'Instagram', href: 'https://www.instagram.com' },
+  { label: 'Facebook', href: 'https://www.facebook.com/amr_eltanany' },
+  { label: 'GitHub', href: 'https://github.com/amreltanany' },
+  { label: 'Instagram', href: 'https://www.instagram.com/amr_eltanany_' },
+  { label: 'WhatsApp', href: 'https://wa.me/201119708154' },
 ];
 
 export default function Footer() {

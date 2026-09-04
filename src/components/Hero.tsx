@@ -75,34 +75,27 @@ export default function Hero() {
           <p className="mb-4 font-inter text-lg font-medium tracking-widest text-accent animate-fadeUp animate-delay-1 opacity-0-init">
             <span className="inline-flex items-center gap-2">
               <Sparkles size={16} />
-              Hello, I'm a Creative Designer
+              Hello, I'm Amr ElTanany — Full-Stack Developer
             </span>
           </p>
 
           <h1 className="mb-4 text-5xl font-bold leading-[1.1] tracking-tight text-white animate-fadeUp animate-delay-2 opacity-0-init sm:text-6xl lg:text-7xl">
-            Crafting Digital<br />
-            <span className="text-gradient">Experiences</span>
+           Turning Ideas Into <br />
+            <span className="text-gradient">Software</span>
           </h1>
 
           <p className="mb-8 text-2xl font-medium leading-snug text-secondary animate-fadeUp animate-delay-3 opacity-0-init sm:text-3xl">
-            That Inspire & Delight
+            Design & Development
           </p>
 
           <div className="flex flex-wrap gap-4 animate-fadeUp animate-delay-5 opacity-0-init">
             <a
-              href="#work"
+              href="https://linktr.ee/Amr_ElTanany?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadijl42YlwyWtuFUmV-0feKI_EM9feLsSQYfsJA6CT3VWPG1IcbSUjHitEmeQ_aem_MZNxS1ONivN3v3KIkJMFVw" target="_blank"
               className="inline-flex items-center gap-2 rounded-lg accent-gradient px-8 py-4 font-inter text-sm font-semibold uppercase tracking-wide text-white shadow-lg shadow-accent/25 transition-all hover:-translate-y-0.5 hover:accent-gradient-hover hover:shadow-xl hover:shadow-accent/40"
             >
-              View My Work
+              View My Profil
               <ArrowRight size={18} />
             </a>
-            <button
-              onClick={handleDownloadCv}
-              className="inline-flex items-center gap-2 rounded-lg glass glass-border px-8 py-4 font-inter text-sm font-semibold uppercase tracking-wide text-white transition-all hover:bg-white/10 hover:border-white/20"
-            >
-              Download CV
-              <Download size={18} />
-            </button>
           </div>
         </div>
       </div>
@@ -121,7 +114,7 @@ export default function Hero() {
               </p>
             </div>
             <p className="ml-5 mt-2 text-secondary">
-              Open to freelance projects and full-time opportunities
+              Helping businesses transform ideas into production-ready software
             </p>
           </div>
 
@@ -148,14 +141,14 @@ export default function Hero() {
         {/* Stats */}
         <div className="flex items-center gap-5">
           <div>
-            <span className="block font-inter text-xl font-semibold text-white">8+</span>
+            <span className="block font-inter text-xl font-semibold text-white">5+</span>
             <span className="mt-1 block font-inter text-xs uppercase tracking-wider text-secondary">
               Years
             </span>
           </div>
           <span className="h-9 w-px bg-white/10" />
           <div>
-            <span className="block font-inter text-xl font-semibold text-white">120+</span>
+            <span className="block font-inter text-xl font-semibold text-white">40+</span>
             <span className="mt-1 block font-inter text-xs uppercase tracking-wider text-secondary">
               Projects
             </span>
@@ -163,14 +156,7 @@ export default function Hero() {
         </div>
 
         {/* Scroll indicator */}
-        <div className="hidden flex-col items-center gap-2.5 lg:flex">
-          <div className="flex h-9 w-6 justify-center border border-white/50 rounded-full pt-1.5">
-            <span className="h-2 w-[3px] rounded bg-white animate-wheelScroll" />
-          </div>
-          <span className="font-inter text-[0.68rem] uppercase tracking-[0.14em] text-secondary/80">
-            Scroll
-          </span>
-        </div>
+     
       </div>
     </section>
   );
