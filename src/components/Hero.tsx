@@ -120,9 +120,9 @@ export default function Hero() {
 
           <div className="flex gap-3">
             {[
-              { label: 'LinkedIn', href: 'https://www.linkedin.com' },
-              { label: 'GitHub', href: 'https://github.com' },
-              { label: 'Instagram', href: 'https://www.instagram.com' },
+              { label: 'WhatsApp', href: 'https://wa.me/201119708154' },
+              { label: 'Facebook', href: 'https://www.facebook.com/amr_eltanany' },
+              { label: 'Instagram', href: 'https://www.instagram.com/amr_eltanany_' },
             ].map((social) => (
               <a
                 key={social.label}
