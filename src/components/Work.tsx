@@ -1,11 +1,14 @@
 import { ArrowUpRight } from 'lucide-react';
 
+const getImagePath = (path: string) =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+
 const PROJECTS = [
   {
     title: 'Display Egypt',
     category: 'Marketing Agency · Portfolio',
     description: 'Engineered DisplayEgypt—a dynamic WordPress platform built for an outdoor advertising leader, highlighting street-level campaigns, digital billboards, and high-impact urban displays.',
-    image: 'hero (2).png',
+    image: 'hero(2).png',
     tags: ['WordPress', 'PHP', 'SEO & Speed Optimization', 'Responsive Design'],
     link: 'https://displayegypt.com/',
   },
@@ -29,7 +32,7 @@ const PROJECTS = [
     title: 'PERSONAL PORTFOLIO',
     category: 'Portfolio',
     description: 'Architected a Portfolio to serve as a high-speed central hub for cutting-edge web projects, combining slick motion design, interactive features, and bulletproof code execution.',
-    image: 'hero (1).png',
+    image: 'hero(1).png',
     tags: ['TypeScript', 'Tailwind', 'React + Vite'],
     link: 'https://amreltanany.github.io/ElTanany/',
   },
@@ -79,7 +82,7 @@ export default function Work() {
               {/* Image */}
               <div className="relative h-64 overflow-hidden sm:h-72">
                 <img
-                  src={project.image}
+                  src={getImagePath(project.image)}
                   alt={project.title}
                   loading="lazy"
                   className="h-full w-full object-cover opacity-80 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
