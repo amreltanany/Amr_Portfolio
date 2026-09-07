@@ -41,9 +41,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 border-t border-white/8 pt-8 text-center">
-          <p className="font-inter text-sm text-secondary/50">
-            © {new Date().getFullYear()} Studio. Crafted with precision and care.
-          </p>
+         
         </div>
       </div>
     </footer>
