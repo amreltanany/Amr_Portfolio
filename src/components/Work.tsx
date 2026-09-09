@@ -21,12 +21,12 @@ const PROJECTS = [
     link: 'https://samconstructions-eg.com/',
   },
     {
-    title: 'Furniture E-Commerce UI ',
-    category: 'E-COMMERCE DESIGN',
-    description: 'A sleek, responsive front-end e-commerce interface for a modern furniture brand, focused on minimalist aesthetics, smooth user interactions, and high-quality product displays.',
+    title: 'Switch On',
+    category: 'E-COMMERCE Platform',
+    description: 'A sleek, responsive e-commerce interface for a modern furniture brand, focused on minimalist aesthetics, smooth user interactions, and high-quality product displays.',
     image: '10.png',
     tags: ['TypeScript','React', 'Tailwind CSS','Responsive Design'],
-    link: '#',
+    link: 'https://amreltanany.github.io/Switch-On/',
   },
   {
     title: 'Qaro2a',
