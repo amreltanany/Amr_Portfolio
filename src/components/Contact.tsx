@@ -106,7 +106,7 @@ export default function Contact() {
                 </p>
               </div>
               <p className="text-secondary text-sm leading-relaxed">
-                Accepting new freelance projects full-time projects management.
+                Currently available for freelance and full-time opportunities
               </p>
             </div>
           </div>
