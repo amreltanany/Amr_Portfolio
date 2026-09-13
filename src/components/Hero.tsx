@@ -93,7 +93,7 @@ export default function Hero() {
               href="https://linktr.ee/Amr_ElTanany?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadijl42YlwyWtuFUmV-0feKI_EM9feLsSQYfsJA6CT3VWPG1IcbSUjHitEmeQ_aem_MZNxS1ONivN3v3KIkJMFVw" target="_blank"
               className="inline-flex items-center gap-2 rounded-lg accent-gradient px-8 py-4 font-inter text-sm font-semibold uppercase tracking-wide text-white shadow-lg shadow-accent/25 transition-all hover:-translate-y-0.5 hover:accent-gradient-hover hover:shadow-xl hover:shadow-accent/40"
             >
-              View My Profil
+              View My Profile
               <ArrowRight size={18} />
             </a>
           </div>
