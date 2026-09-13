@@ -31,7 +31,7 @@ const PROJECTS = [
   {
     title: 'Qaro2a',
     category: 'E-Commerce Platform ',
-    description: 'Architecting complex digital ecosystems like Qaro2a, designed for author publishing, e-commerce, and proadcasting. I combine top-tier engineering with sleek UI design to deliver fast, conversion-driven platforms.',
+    description: 'Architecting complex digital ecosystems like Qaro2a, designed for author publishing, e-commerce, and broadcasting. I combine top-tier engineering with sleek UI design to deliver fast, conversion-driven platforms.',
     image: 'hero.png',
     tags: ['ASP.NET Core', 'SQL Server', 'Onion Architecture', 'JWT Auth'],
     link: 'http://qaro2a.com/',
@@ -54,7 +54,7 @@ const PROJECTS = [
   },
   {
     title: 'Interactive Masking Concept',
-    category: ' UI/UX Desgin',
+    category: ' UI/UX Design',
     description: 'Dynamic radial-gradient mask that moves with mouse/touch events to reveal an alternate image layer underneath.',
     image: 'ronin.jpg',
     tags: ['UI/UX', 'Motion'],
