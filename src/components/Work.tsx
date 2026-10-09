@@ -29,6 +29,14 @@ const PROJECTS = [
     link: 'https://amreltanany.github.io/Switch-On/',
   },
   {
+    title: 'SNEAKS',
+    category: 'E-Commerce Platform',
+    description: 'A bold sneaker storefront with a scroll-driven parallax hero, live color-variant switching, a best-sellers carousel, and category browsing, built for smooth, high-impact product storytelling.',
+    image: 'sneakers.png',
+    tags: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
+    link: 'https://amreltanany.github.io/sneakers-/',
+  },
+  {
     title: 'Qaro2a',
     category: 'E-Commerce Platform ',
     description: 'Architecting complex digital ecosystems like Qaro2a, designed for author publishing, e-commerce, and broadcasting. I combine top-tier engineering with sleek UI design to deliver fast, conversion-driven platforms.',
