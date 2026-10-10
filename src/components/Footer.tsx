@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 border-t border-white/8 pt-8 text-center">
-         
+          <p className="font-inter text-sm text-secondary/75">Built by <a href="https://amreltanany.com" target="_blank" rel="noopener noreferrer" className="underline transition-colors hover:text-white">Amr ElTanany</a></p>
         </div>
       </div>
     </footer>
